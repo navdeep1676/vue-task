@@ -49,6 +49,12 @@ const submitForm = async () => {
     <div class="w-[50%] flex justify-between items-center p-5">
       <div class="mx-auto w-[60%]">
         <div><h1 class="font-bold text-3xl mb-5 text-white">Login</h1></div>
+        <p class="my-3 text-white">
+          ReqRes Default Creds <br />
+
+          Email : eve.holt@reqres.in <br />
+          Password : cityslicka
+        </p>
         <form @submit.prevent="submitForm">
           <div class="flex flex-col gap-3">
             <div class="flex flex-col gap-2">
