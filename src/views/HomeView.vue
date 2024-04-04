@@ -68,9 +68,9 @@ const submitForm = async () => {
               <label class="font-bold text-white" for="name">Password *</label>
 
               <input
-                class="border border-black rounded-md p-2 text-white"
+                class="border border-black rounded-md p-2"
                 placeholder="Password *"
-                type="text"
+                type="password"
                 v-model="formData.password"
               />
               <div class="input-errors" v-for="error of v$.password.$errors" :key="error.$uid">
