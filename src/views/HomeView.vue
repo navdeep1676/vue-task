@@ -92,7 +92,7 @@ const submitForm = async () => {
           </button>
           <p class="text-white mt-3 text-center">
             Don't Have an Account
-            <RouterLink class="font-bold" to="/"> Sign Up </RouterLink>
+            <RouterLink class="font-bold" to="/signup"> Sign Up </RouterLink>
           </p>
         </form>
       </div>
